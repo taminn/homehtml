@@ -19,8 +19,8 @@ input:focus{
     outline: none;
 }
 ::selection {
-    background:rgba(0, 0, 0, 0);
-    color:rgba(240, 255, 240, 0.6);
+    background:rgba(50, 50, 50, 0.1);
+    color:rgba(0, 0, 0, 0.5);
 }
 #menu{
     display: none;
