@@ -1,30 +1,35 @@
-body{
-    overflow:hidden;
+body {
+    overflow: hidden;
 }
-a{
+
+a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
-    font-family: Segoe Script,方正舒体;
+    font-family: Segoe Script, 方正舒体;
     font-size: 110%;
 }
 
-tr{
+tr {
     height: 60px;
 }
-td{
+
+td {
     width: 95px;
     font-size: 105%
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
+
 ::selection {
-    background:rgba(50, 50, 50, 0.1);
-    color:rgba(0, 0, 0, 0.5);
+    background: rgba(50, 50, 50, 0.1);
+    color: rgba(0, 0, 0, 0.5);
 }
-#menu{
+
+#menu {
     display: none;
-    list-style:none;
+    list-style: none;
     position: absolute;
     left: 550px;
     top: 42px;
@@ -35,64 +40,73 @@ input:focus{
     padding: 0px;
     margin: 0px;
 }
-#link{
+
+#link {
     position: absolute;
     top: 100px;
-    left:140px;
+    left: 140px;
     width: 450px;
     height: 100%;
 }
-#searchBox{
+
+#searchBox {
     position: absolute;
-    left:435px;
-    top:150px;
+    left: 435px;
+    top: 150px;
     width: 680px;
     height: 168px;
 }
-#key{
+
+#key {
     font-size: 110%;
-    text-indent:7px;
+    text-indent: 7px;
     color: rgba(0, 0, 0, 0.6);
-    font-family: Comic Sans MS,华文新魏;
-    border-bottom-left-radius:2px;
+    font-family: Comic Sans MS, 华文新魏;
+    border-bottom-left-radius: 2px;
     width: 550px;
     height: 42px;
     border: 0px;
     border-color: blue;
     background-color: rgba(255, 255, 255, 0.2);
 }
-#searchButton{
-    border-top-right-radius:2px;
-    border-bottom-right-radius:2px;
+
+#searchButton {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
     position: absolute;
     left: 550px;
     margin: 0px;
     color: rgba(0, 0, 0, 0.7);
     background-color: rgba(255, 255, 255, 0.2);
 }
-#one{
+
+#one {
     background-color: rgba(255, 255, 255, 0.2);
     color: rgba(0, 0, 0, 0.7);
 }
-#two{
+
+#two {
     background-color: rgba(255, 255, 255, 0.2);
     color: rgba(0, 0, 0, 0.7);
 }
-#three{
+
+#three {
     background-color: rgba(255, 255, 255, 0.2);
     color: rgba(0, 0, 0, 0.7);
 }
-#word{
-    overflow:hidden;
+
+#word {
+    overflow: hidden;
     position: absolute;
-    border-radius:10px;
+    border-radius: 10px;
     bottom: 10px;
     right: 10px;
     width: 450px;
     height: 300px;
     background-color: rgba(255, 255, 255, 0.2);
 }
-.Button{
+
+.Button {
     width: 120px;
     height: 42px;
     border: 0px;
