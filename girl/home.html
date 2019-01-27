@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <link rel="icon" type="image/x-icon" href="./img/i.icno" />
+    <link rel="stylesheet" href="./css/theme.css">
+    <script src="./js/live.js"></script>
+</head>
+
+<body style="background-image:url('./img/bg.jpg');background-size:100%">
+    <div id="link" onselectstart="return false;">
+        <table>
+            <tr>
+                <td><a href="http://www.cnblogs.com/TAMING/" target="_blank">blog</a></td>
+                <td><a href="https://github.com/" target="_blank">github</a></td>
+            </tr>
+            <tr>
+                <td><a href="http://acm.hdu.edu.cn/listproblem.php?vol=1" target="_blank">hdu</a></td>
+                <td><a href="https://vjudge.net/" target="_blank">vjudge</a></td>
+            </tr>
+            <tr>
+                <td><a href="http://poj.org/problemlist" target="_blank">pku</a></td>
+                <td><a href="https://acm.ecnu.edu.cn/problem/" target="_blank">ecnu</a></td>
+                <td><a href="http://codeforces.com/problemset" target="_blank">codeforces</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://paste.ubuntu.com/" target="_blank">pastebin</a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="searchBox">
+        <form name="f" id="form" action="https://www.baidu.com/s" target="_blank" method="get">
+            <input type="text" name="wd" id="key" maxlength="100" autocomplete="off" onclick="">
+            <input value="utf-8" name="enc" type="hidden">
+            <input type="submit" value="百     度" id="searchButton" class="Button" onmouseover="showMenu()" onmouseout="hideMenu()">
+        </form>
+        <ul id="menu" onmouseover="showMenu()" onmouseout="hideMenu()">
+            <li><input type="submit" value="" id="one" class="Button" onclick="change(this)"></li>
+            <li><input type="submit" value="" id="two" class="Button" onclick="change(this)"></li>
+            <li><input type="submit" value="" id="three" class="Button" onclick="change(this)"></li>
+        </ul>
+    </div>
+    <div id="word">
+        <iframe src="./html/word.html" frameborder="0" width=475px height=300px></iframe>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+body{
+    overflow:hidden;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Segoe Script,方正舒体;
+    font-size: 110%;
+}
+
+tr{
+    height: 60px;
+}
+td{
+    width: 95px;
+    font-size: 105%
+}
+input:focus{
+    outline: none;
+}
+::selection {
+    background:rgba(50, 50, 50, 0.1);
+    color:rgba(0, 0, 0, 0.5);
+}
+#menu{
+    display: none;
+    list-style:none;
+    position: absolute;
+    left: 550px;
+    top: 42px;
+    left: 550px;
+    width: 120px;
+    height: 126px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+#link{
+    position: absolute;
+    top: 100px;
+    left:140px;
+    width: 450px;
+    height: 100%;
+}
+#searchBox{
+    position: absolute;
+    left:435px;
+    top:150px;
+    width: 680px;
+    height: 168px;
+}
+#key{
+    font-size: 110%;
+    text-indent:7px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Comic Sans MS,华文新魏;
+    border-bottom-left-radius:2px;
+    border-top-left-radius:2px;
+    width: 550px;
+    height: 42px;
+    border: 0px;
+    border-color: blue;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#searchButton{
+    border-top-right-radius:2px;
+    border-bottom-right-radius:2px;
+    position: absolute;
+    left: 550px;
+    margin: 0px;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#one{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(0, 0, 0, 0.7);
+}
+#two{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(0, 0, 0, 0.7);
+}
+#three{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(0, 0, 0, 0.7);
+}
+#word{
+    overflow:hidden;
+    position: absolute;
+    border-radius:10px;
+    bottom: 10px;
+    right: 10px;
+    width: 450px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.Button{
+    width: 120px;
+    height: 42px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-family: 方正舒体;
+    font-size: 100%;
+}
