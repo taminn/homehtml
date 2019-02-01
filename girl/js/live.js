@@ -43,3 +43,9 @@ function showMenu(){
 function hideMenu(){
     document.getElementById("menu").style.display="none";
 }
+
+function changeImg(){
+    imgname="url(\".//img//bg"+Math.round(Math.random())+".jpg\")";
+    document.body.style.backgroundImage=imgname;
+    document.body.style.backgroundSize="100%";
+}
