@@ -26,63 +26,49 @@ input:focus{
     display: none;
     list-style:none;
     position: absolute;
-    left: 550px;
-    top: 42px;
-    left: 550px;
-    width: 120px;
-    height: 126px;
+    left: 80%;
+    top: 14%;
+    width: 100%;
+    height: 80%;
     border: 0px;
     padding: 0px;
     margin: 0px;
 }
 #link{
     position: absolute;
-    top: 100px;
-    left:140px;
+    top: 18%;
+    left:8%;
     width: 450px;
     height: 100%;
 }
 #searchBox{
     position: absolute;
-    left:435px;
-    top:150px;
-    width: 680px;
-    height: 168px;
+    left:25%;
+    top:27%;
+    width: 50%;
+    height: 40%;
 }
 #key{
     font-size: 110%;
     text-indent:7px;
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.7);
     font-family: Comic Sans MS,华文新魏;
     border-bottom-left-radius:2px;
     border-top-left-radius:2px;
-    width: 550px;
-    height: 42px;
+    width: 80%;
+    height: 14%;
     border: 0px;
     border-color: blue;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.15);
 }
 #searchButton{
     border-top-right-radius:2px;
     border-bottom-right-radius:2px;
     position: absolute;
-    left: 550px;
+    right: 0%;
     margin: 0px;
-    color: rgba(0, 0, 0, 0.7);
-    background-color: rgba(255, 255, 255, 0.2);
 }
-#one{
-    background-color: rgba(255, 255, 255, 0.2);
-    color: rgba(0, 0, 0, 0.7);
-}
-#two{
-    background-color: rgba(255, 255, 255, 0.2);
-    color: rgba(0, 0, 0, 0.7);
-}
-#three{
-    background-color: rgba(255, 255, 255, 0.2);
-    color: rgba(0, 0, 0, 0.7);
-}
+
 #word{
     overflow:hidden;
     position: absolute;
@@ -91,14 +77,16 @@ input:focus{
     right: 10px;
     width: 450px;
     height: 300px;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .Button{
-    width: 120px;
-    height: 42px;
+    width: 20%;
+    height: 14%;
     border: 0px;
     padding: 0px;
     margin: 0px;
-    font-family: 方正舒体;
-    font-size: 100%;
+    font-family: "方正舒体";
+    font-size: 110%;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 255, 0.15);
 }
